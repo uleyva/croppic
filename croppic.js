@@ -604,10 +604,10 @@
 	
 			var cropData = {
 					imgUrl:that.imgUrl,
-					imgInitW:that.imgInitW,
-					imgInitH:that.imgInitH,
-					imgW:that.imgW,
-					imgH:that.imgH,
+					imgInitW: parseInt(that.imgInitW),
+					imgInitH:parseInt(that.imgInitH),
+					imgW:parseInt(that.imgW),
+					imgH:parseInt(that.imgH),
 					imgY1:Math.abs( parseInt( that.img.css('top') ) ),
 					imgX1:Math.abs( parseInt( that.img.css('left') ) ),
 					cropH:that.objH,
